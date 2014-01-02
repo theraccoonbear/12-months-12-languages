@@ -13,3 +13,5 @@ The following are resources to help you learn and provide you with ideas for pro
 * *[Learn Python](http://www.learnpython.org/)* - **Beginner:** Beginner Python lessons with on page testing environment.
 
 * *[Dive Into Python 3](http://www.diveintopython3.net/)* - Available as a free PDF/HTML download.
+
+* *[Free Programming Books](http://resrc.io/list/10/list-of-free-programming-books/#python)* - A motherload of free books available (from many languages).
