@@ -12,4 +12,4 @@ The following are resources to help you learn and provide you with ideas for pro
 
 * *[Learn Python](http://www.learnpython.org/)* - **Beginner:** Beginner Python lessons with on page testing environment.
 
-
+* *[Dive Into Python 3](http://www.diveintopython3.net/)* - Available as a free PDF/HTML download.
