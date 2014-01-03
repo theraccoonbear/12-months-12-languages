@@ -16,4 +16,4 @@ The following are resources to help you learn and provide you with ideas for pro
 
 * *[Free Programming Books](http://resrc.io/list/10/list-of-free-programming-books/#python)* - A motherload of free books available (from many languages).
 
-* *[Learn Python the Hard WAy](http://learnpythonthehardway.org/)* - Free html book with option to purchase additional media/resources.
+* *[Learn Python the Hard Way](http://learnpythonthehardway.org/)* - Free html book with option to purchase additional media/resources.
