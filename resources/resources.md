@@ -15,3 +15,5 @@ The following are resources to help you learn and provide you with ideas for pro
 * *[Dive Into Python 3](http://www.diveintopython3.net/)* - Available as a free PDF/HTML download.
 
 * *[Free Programming Books](http://resrc.io/list/10/list-of-free-programming-books/#python)* - A motherload of free books available (from many languages).
+
+* *[Learn Python the Hard WAy](http://learnpythonthehardway.org/)* - Free html book with option to purchase additional media/resources.
