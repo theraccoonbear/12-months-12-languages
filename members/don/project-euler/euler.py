@@ -21,7 +21,11 @@ def isPrime(n):
 
 def listPrimes(start, end):
 	primes = []
+	cnt = 0
 	for x in range(start, end + 1):
+		cnt += 1
+		if not(cnt % 100000):
+			print cnt
 		if isPrime(x):
 			primes.append(x)
 	return primes
