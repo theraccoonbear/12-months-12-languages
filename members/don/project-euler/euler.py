@@ -23,3 +23,9 @@ def isPalindrome(n):
 	left = n[0:half];
 	right = (n[length-half:length])[::-1]
 	return left == right
+
+def checkDiv(n):
+	for d in range(1, 20):
+		if n % d != 0:
+			return False
+	return True
