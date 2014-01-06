@@ -14,7 +14,18 @@ def isPrime(n):
 				if n % i == 0:
 					primeStatus[n] = False
 					break
+	if not primeStatus[n]:
+		for mult in range(2,10):
+			primeStatus[mult*n] = False
 	return primeStatus[n]
+
+def listPrimes(start, end):
+	primes = []
+	for x in range(start, end + 1):
+		if isPrime(x):
+			primes.append(x)
+	return primes
+
 
 def isPalindrome(n):
 	n = str(n);
