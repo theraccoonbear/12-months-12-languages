@@ -6,6 +6,9 @@ The following are resources to help you learn and provide you with ideas for pro
 
  * *[Project Euler](http://projecteuler.net/)* - A large set of math related coding challenges.
 
+ * *[OBS<sub>c</sub>](http://blog.computationalcomplexity.org/2009/11/17x17-challenge-worth-28900-this-is-not.html)* - A set of challenges relating to coloring grids of grids such that you obstruct the creation of rectangles with the same colors at each corner.  Smaller grids can be brute forced, larger grids require something more sophisticated.
+
+
 ## Python Resources
 
 * *[Code Academy](http://www.codecademy.com/tracks/python)* - **Beginner:** The Code Academy Python track. Other languages are offered as well. 
