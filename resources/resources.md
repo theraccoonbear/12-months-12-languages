@@ -6,6 +6,6 @@ The following are resources to help you learn and provide you with ideas for pro
 
  * *[Project Euler](http://projecteuler.net/)* - A large set of math related coding challenges.
 
-## Python Resources
+## Ruby Resources
 
 * *[Ruby In 20 Minutes](https://www.ruby-lang.org/en/documentation/quickstart/)* - **Beginner:** A quick introduction to Ruby using IRB (Interactive Ruby Shell), Ruby's [REPL](http://en.wikipedia.org/wiki/REPL).
