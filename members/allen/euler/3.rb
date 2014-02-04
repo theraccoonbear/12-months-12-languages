@@ -1,5 +1,5 @@
-$seed = 600851475143.0
-$largest_prime
+$seed = 600851475141.0
+$primes = []
 
 while $seed > 1 do
 	#work our way up from 2,
@@ -7,11 +7,11 @@ while $seed > 1 do
 	#larger & larger primes
 	for i in 2..$seed
 		if $seed % i == 0.0
-			$largest_prime = i
+			$primes.push(i)
 			$seed = $seed / i
 			break
 		end
 	end
 end
 
-puts $largest_prime
+puts $primes.inspect

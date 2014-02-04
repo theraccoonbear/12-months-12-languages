@@ -1,5 +1,3 @@
-$limit = 998001
-
 def isPalindrome(array)
 	if array.length == 0
 		return false
@@ -29,11 +27,18 @@ def isPalindrome(array)
 	end
 end
 
-while $limit > 0 do
-	$intAsArray = $limit.to_s.split('')
-	if isPalindrome($intAsArray)
-		puts $limit
-		break
+$largestPalindrome = 0
+
+999.downto(1) do |i|
+	999.downto(1) do |j|
+		$numberToTest = i * j
+		$intAsArray = $numberToTest.to_s.split('')
+		if isPalindrome($intAsArray)
+			if $numberToTest > $largestPalindrome
+				$largestPalindrome = $numberToTest
+			end
+		end
 	end
-	$limit -= 1
 end
+
+puts $largestPalindrome
