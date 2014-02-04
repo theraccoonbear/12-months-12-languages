@@ -29,4 +29,11 @@ def isPalindrome(array)
 	end
 end
 
-puts isPalindrome("racecar".split(''))
+while $limit > 0 do
+	$intAsArray = $limit.to_s.split('')
+	if isPalindrome($intAsArray)
+		puts $limit
+		break
+	end
+	$limit -= 1
+end
