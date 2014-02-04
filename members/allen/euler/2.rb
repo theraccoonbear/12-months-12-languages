@@ -11,4 +11,4 @@ while $termOne + $termTwo < 4000000 do
 	$termTwo = $newTerm
 end
 
-print $sum.to_s + "\n"
+puts $sum
