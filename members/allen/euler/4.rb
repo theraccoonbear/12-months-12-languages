@@ -1,9 +1,9 @@
 def isPalindrome(array)
 	if array.length == 0
-		return false
+		false
 	elsif array.length == 1
 		#one character, must be a palindrome
-		return true
+		true
 	else
 		#check if the outermost pair
 		# of characters are the same
@@ -11,7 +11,7 @@ def isPalindrome(array)
 			#they are the same, if the array is
 			#of length 2 we're done
 			if array.length == 2
-				return true
+				true
 			else
 				#potential candidate found &
 				#we still have work to do
@@ -22,7 +22,7 @@ def isPalindrome(array)
 				isPalindrome($newArr)
 			end
 		else
-			return false
+			false
 		end
 	end
 end
